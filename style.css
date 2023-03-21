@@ -1,0 +1,67 @@
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: hsl(30, 38%, 92%) ;
+    margin: 250px 700px;
+    align-items: center;
+}   
+.card {
+    display: flex;
+    width: 680px;
+    height: 520px;
+    background-color: white;
+    border-radius: 12px 12px 12px 12px;
+}
+.articulo, .p-desc, .priceBefore{
+    color: gray;
+}
+.title {
+    font-size: 32px;
+    line-height: 33px;
+}
+.card-elements {
+    
+    width: 200px;
+    padding: 20px 20px 2px 40px;
+
+} 
+img{
+    width: 340px;
+    height: 520px;
+    border-radius: 12px 0px 0px 12px;
+}
+.p-desc{
+    align-items: center;
+    line-height: 24px;
+    width: 290px;
+    font-size: 17px;
+    padding-top: 3px;
+}
+.precios {
+    display: flex;
+    align-items: center;
+}
+.priceNow{
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: bold;
+    width: 140px;
+}
+.priceBefore{
+    float: left;
+    text-decoration: line-through;
+}
+.addToCart{ 
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.imgCart{
+   width: 15px;
+   height: 16px;
+   padding-right: 10px;
+}
