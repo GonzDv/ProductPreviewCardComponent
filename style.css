@@ -1,9 +1,15 @@
+
 body {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: hsl(30, 38%, 92%) ;
-    margin: 250px 700px;
+    
+}
+main {
+    display:flex;
+    justify-content: center;
     align-items: center;
-}   
+    margin-top: 200px;
+}
 .card {
     display: flex;
     width: 680px;
